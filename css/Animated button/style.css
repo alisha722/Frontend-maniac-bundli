@@ -1,0 +1,770 @@
+Body {
+    Background: #E0e5ec;
+    }
+    .Frame {
+    Width: 90%;
+    Margin: 40px Auto;
+    Text-Align: Center;
+    }
+    h1.Heading{
+        text-align: center;
+    }
+    Button {
+    Margin: 20px;
+    }
+    .Custom-Btn {
+    Width: 130px;
+    Height: 40px;
+    Color: #Fff;
+    Border-Radius: 5px;
+    Padding: 10px 25px;
+    Font-Family: 'Lato', Sans-Serif;
+    Font-Weight: 500;
+    Background: Transparent;
+    Cursor: Pointer;
+    Transition: All 0.3s Ease;
+    Position: Relative;
+    Display: Inline-Block;
+    Box-Shadow:inset 2px 2px 2px 0px Rgba(255,255,255,.5),
+    7px 7px 20px 0px Rgba(0,0,0,.1),
+    4px 4px 5px 0px Rgba(0,0,0,.1);
+    Outline: None;
+    }
+    /* 1 */
+    .Btn-1 {
+    Background: Rgb(6,14,131);
+    Background: Linear-Gradient(0deg, Rgba(6,14,131,1) 0%, Rgba(12,25,180,1) 100%);
+    Border: None;
+    }
+    .Btn-1:Hover {
+    Background: Rgb(0,3,255);
+    Background: Linear-Gradient(0deg, Rgba(0,3,255,1) 0%, Rgba(2,126,251,1) 100%);
+    }
+    /* 2 */
+    .Btn-2 {
+    Background: Rgb(96,9,240);
+    Background: Linear-Gradient(0deg, Rgba(96,9,240,1) 0%, Rgba(129,5,240,1) 100%);
+    Border: None;
+    }
+    .Btn-2:Before {
+    Height: 0%;
+    Width: 2px;
+    }
+    .Btn-2:Hover {
+    Box-Shadow: 4px 4px 6px 0 Rgba(255,255,255,.5),
+    -4px -4px 6px 0 Rgba(116, 125, 136, .5),
+    Inset -4px -4px 6px 0 Rgba(255,255,255,.2),
+    Inset 4px 4px 6px 0 Rgba(0, 0, 0, .4);
+    }
+    /* 3 */
+    .Btn-3 {
+    Background: Rgb(0,172,238);
+    Background: Linear-Gradient(0deg, Rgba(0,172,238,1) 0%, Rgba(2,126,251,1) 100%);
+    Width: 130px;
+    Height: 40px;
+    Line-Height: 42px;
+    Padding: 0;
+    Border: None;
+    }
+    .Btn-3 Span {
+    Position: Relative;
+    Display: Block;
+    Width: 100%;
+    Height: 100%;
+    }
+    .Btn-3:Before,
+    .Btn-3:After {
+    Position: Absolute;
+    Content: "";
+    Right: 0;
+    Top: 0;
+    Background: Rgba(2,126,251,1);
+    Transition: All 0.3s Ease;
+    }
+    .Btn-3:Before {
+    Height: 0%;
+    Width: 2px;
+    }
+    .Btn-3:After {
+    Width: 0%;
+    Height: 2px;
+    }
+    .Btn-3:Hover{
+    Background: Transparent;
+    Box-Shadow: None;
+    }
+    .Btn-3:Hover:before {
+    Height: 100%;
+    }
+    .Btn-3:Hover:after {
+    Width: 100%;
+    }
+    .Btn-3 Span:hover{
+    Color: Rgba(2,126,251,1);
+    }
+    .Btn-3 Span:before,
+    .Btn-3 Span:after {
+    Position: Absolute;
+    Content: "";
+    Left: 0;
+    Bottom: 0;
+    Background: Rgba(2,126,251,1);
+    Transition: All 0.3s Ease;
+    }
+    .Btn-3 Span:before {
+    Width: 2px;
+    Height: 0%;
+    }
+    .Btn-3 Span:after {
+    Width: 0%;
+    Height: 2px;
+    }
+    .Btn-3 Span:hover:before {
+    Height: 100%;
+    }
+    .Btn-3 Span:hover:after {
+    Width: 100%;
+    }
+    /* 4 */
+    .Btn-4 {
+    Background-Color: #4dccc6;
+    Background-Image: Linear-Gradient(315deg, #4dccc6 0%, #96e4df 74%);
+    Line-Height: 42px;
+    Padding: 0;
+    Border: None;
+    }
+    .Btn-4:Hover{
+    Background-Color: #89d8d3;
+    Background-Image: Linear-Gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+    }
+    .Btn-4 Span {
+    Position: Relative;
+    Display: Block;
+    Width: 100%;
+    Height: 100%;
+    }
+    .Btn-4:Before,
+    .Btn-4:After {
+    Position: Absolute;
+    Content: "";
+    Right: 0;
+    Top: 0;
+    Box-Shadow: 4px 4px 6px 0 Rgba(255,255,255,.9),
+    -4px -4px 6px 0 Rgba(116, 125, 136, .2),
+    Inset -4px -4px 6px 0 Rgba(255,255,255,.9),
+    Inset 4px 4px 6px 0 Rgba(116, 125, 136, .3);
+    Transition: All 0.3s Ease;
+    }
+    .Btn-4:Before {
+    Height: 0%;
+    Width: .1px;
+    }
+    .Btn-4:After {
+    Width: 0%;
+    Height: .1px;
+    }
+    .Btn-4:Hover:before {
+    Height: 100%;
+    }
+    .Btn-4:Hover:after {
+    Width: 100%;
+    }
+    .Btn-4 Span:before,
+    .Btn-4 Span:after {
+    Position: Absolute;
+    Content: "";
+    Left: 0;
+    Bottom: 0;
+    Box-Shadow: 4px 4px 6px 0 Rgba(255,255,255,.9),
+    -4px -4px 6px 0 Rgba(116, 125, 136, .2),
+    Inset -4px -4px 6px 0 Rgba(255,255,255,.9),
+    Inset 4px 4px 6px 0 Rgba(116, 125, 136, .3);
+    Transition: All 0.3s Ease;
+    }
+    .Btn-4 Span:before {
+    Width: .1px;
+    Height: 0%;
+    }
+    .Btn-4 Span:after {
+    Width: 0%;
+    Height: .1px;
+    }
+    .Btn-4 Span:hover:before {
+    Height: 100%;
+    }
+    .Btn-4 Span:hover:after {
+    Width: 100%;
+    }
+    /* 5 */
+    .Btn-5 {
+    Width: 130px;
+    Height: 40px;
+    Line-Height: 42px;
+    Padding: 0;
+    Border: None;
+    Background: Rgb(255,27,0);
+    Background: Linear-Gradient(0deg, Rgba(255,27,0,1) 0%, Rgba(251,75,2,1) 100%);
+    }
+    .Btn-5:Hover {
+    Color: #F0094a;
+    Background: Transparent;
+    Box-Shadow:none;
+    }
+    .Btn-5:Before,
+    .Btn-5:After{
+    Content:'';
+    Position:absolute;
+    Top:0;
+    Right:0;
+    Height:2px;
+    Width:0;
+    Background: #F0094a;
+    Box-Shadow:
+    -1px -1px 5px 0px #Fff,
+    7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+    Transition:400ms Ease All;
+    }
+    .Btn-5:After{
+    Right:inherit;
+    Top:inherit;
+    Left:0;
+    Bottom:0;
+    }
+    .Btn-5:Hover:before,
+    .Btn-5:Hover:after{
+    Width:100%;
+    Transition:800ms Ease All;
+    }
+    /* 6 */
+    .Btn-6 {
+    Background: Rgb(247,150,192);
+    Background: Radial-Gradient(Circle, Rgba(247,150,192,1) 0%, Rgba(118,174,241,1) 100%);
+    Line-Height: 42px;
+    Padding: 0;
+    Border: None;
+    }
+    .Btn-6 Span {
+    Position: Relative;
+    Display: Block;
+    Width: 100%;
+    Height: 100%;
+    }
+    .Btn-6:Before,
+    .Btn-6:After {
+    Position: Absolute;
+    Content: "";
+    Height: 0%;
+    Width: 1px;
+    Box-Shadow:
+    -1px -1px 20px 0px Rgba(255,255,255,1),
+    -4px -4px 5px 0px Rgba(255,255,255,1),
+    7px 7px 20px 0px Rgba(0,0,0,.4),
+    4px 4px 5px 0px Rgba(0,0,0,.3);
+    }
+    .Btn-6:Before {
+    Right: 0;
+    Top: 0;
+    Transition: All 500ms Ease;
+    }
+    .Btn-6:After {
+    Left: 0;
+    Bottom: 0;
+    Transition: All 500ms Ease;
+    }
+    .Btn-6:Hover{
+    Background: Transparent;
+    Color: #76aef1;
+    Box-Shadow: None;
+    }
+    .Btn-6:Hover:before {
+    Transition: All 500ms Ease;
+    Height: 100%;
+    }
+    .Btn-6:Hover:after {
+    Transition: All 500ms Ease;
+    Height: 100%;
+    }
+    .Btn-6 Span:before,
+    .Btn-6 Span:after {
+    Position: Absolute;
+    Content: "";
+    Box-Shadow:
+    -1px -1px 20px 0px Rgba(255,255,255,1),
+    -4px -4px 5px 0px Rgba(255,255,255,1),
+    7px 7px 20px 0px Rgba(0,0,0,.4),
+    4px 4px 5px 0px Rgba(0,0,0,.3);
+    }
+    .Btn-6 Span:before {
+    Left: 0;
+    Top: 0;
+    Width: 0%;
+    Height: .5px;
+    Transition: All 500ms Ease;
+    }
+    .Btn-6 Span:after {
+    Right: 0;
+    Bottom: 0;
+    Width: 0%;
+    Height: .5px;
+    Transition: All 500ms Ease;
+    }
+    .Btn-6 Span:hover:before {
+    Width: 100%;
+    }
+    .Btn-6 Span:hover:after {
+    Width: 100%;
+    }
+    /* 7 */
+    .Btn-7 {
+    Background: Linear-Gradient(0deg, Rgba(255,151,0,1) 0%, Rgba(251,75,2,1) 100%);
+    Line-Height: 42px;
+    Padding: 0;
+    Border: None;
+    }
+    .Btn-7 Span {
+    Position: Relative;
+    Display: Block;
+    Width: 100%;
+    Height: 100%;
+    }
+    .Btn-7:Before,
+    .Btn-7:After {
+    Position: Absolute;
+    Content: "";
+    Right: 0;
+    Bottom: 0;
+    Background: Rgba(251,75,2,1);
+    Box-Shadow:
+    -7px -7px 20px 0px Rgba(255,255,255,.9),
+    -4px -4px 5px 0px Rgba(255,255,255,.9),
+    7px 7px 20px 0px Rgba(0,0,0,.2),
+    4px 4px 5px 0px Rgba(0,0,0,.3);
+    Transition: All 0.3s Ease;
+    }
+    .Btn-7:Before{
+    Height: 0%;
+    Width: 2px;
+    }
+    .Btn-7:After {
+    Width: 0%;
+    Height: 2px;
+    }
+    .Btn-7:Hover{
+    Color: Rgba(251,75,2,1);
+    Background: Transparent;
+    }
+    .Btn-7:Hover:before {
+    Height: 100%;
+    }
+    .Btn-7:Hover:after {
+    Width: 100%;
+    }
+    .Btn-7 Span:before,
+    .Btn-7 Span:after {
+    Position: Absolute;
+    Content: "";
+    Left: 0;
+    Top: 0;
+    Background: Rgba(251,75,2,1);
+    Box-Shadow:
+    -7px -7px 20px 0px Rgba(255,255,255,.9),
+    -4px -4px 5px 0px Rgba(255,255,255,.9),
+    7px 7px 20px 0px Rgba(0,0,0,.2),
+    4px 4px 5px 0px Rgba(0,0,0,.3);
+    Transition: All 0.3s Ease;
+    }
+    .Btn-7 Span:before {
+    Width: 2px;
+    Height: 0%;
+    }
+    .Btn-7 Span:after {
+    Height: 2px;
+    Width: 0%;
+    }
+    .Btn-7 Span:hover:before {
+    Height: 100%;
+    }
+    .Btn-7 Span:hover:after {
+    Width: 100%;
+    }
+    /* 8 */
+    .Btn-8 {
+    Background-Color: #F0ecfc;
+    Background-Image: Linear-Gradient(315deg, #F0ecfc 0%, #C797eb 74%);
+    Line-Height: 42px;
+    Padding: 0;
+    Border: None;
+    }
+    .Btn-8 Span {
+    Position: Relative;
+    Display: Block;
+    Width: 100%;
+    Height: 100%;
+    }
+    .Btn-8:Before,
+    .Btn-8:After {
+    Position: Absolute;
+    Content: "";
+    Right: 0;
+    Bottom: 0;
+    Background: #C797eb;
+    /*Box-Shadow: 4px 4px 6px 0 Rgba(255,255,255,.5),
+    -4px -4px 6px 0 Rgba(116, 125, 136, .2),
+    Inset -4px -4px 6px 0 Rgba(255,255,255,.5),
+    Inset 4px 4px 6px 0 Rgba(116, 125, 136, .3);*/
+    Transition: All 0.3s Ease;
+    }
+    .Btn-8:Before{
+    Height: 0%;
+    Width: 2px;
+    }
+    .Btn-8:After {
+    Width: 0%;
+    Height: 2px;
+    }
+    .Btn-8:Hover:before {
+    Height: 100%;
+    }
+    .Btn-8:Hover:after {
+    Width: 100%;
+    }
+    .Btn-8:Hover{
+    Background: Transparent;
+    }
+    .Btn-8 Span:hover{
+    Color: #C797eb;
+    }
+    .Btn-8 Span:before,
+    .Btn-8 Span:after {
+    Position: Absolute;
+    Content: "";
+    Left: 0;
+    Top: 0;
+    Background: #C797eb;
+    /*Box-Shadow: 4px 4px 6px 0 Rgba(255,255,255,.5),
+    -4px -4px 6px 0 Rgba(116, 125, 136, .2),
+    Inset -4px -4px 6px 0 Rgba(255,255,255,.5),
+    Inset 4px 4px 6px 0 Rgba(116, 125, 136, .3);*/
+    Transition: All 0.3s Ease;
+    }
+    .Btn-8 Span:before {
+    Width: 2px;
+    Height: 0%;
+    }
+    .Btn-8 Span:after {
+    Height: 2px;
+    Width: 0%;
+    }
+    .Btn-8 Span:hover:before {
+    Height: 100%;
+    }
+    .Btn-8 Span:hover:after {
+    Width: 100%;
+    }
+    /* 9 */
+    .Btn-9 {
+    Border: None;
+    Transition: All 0.3s Ease;
+    Overflow: Hidden;
+    }
+    .Btn-9:After {
+    Position: Absolute;
+    Content: " ";
+    Z-Index: -1;
+    Top: 0;
+    Left: 0;
+    Width: 100%;
+    Height: 100%;
+    Background-Color: #1fd1f9;
+    Background-Image: Linear-Gradient(315deg, #1fd1f9 0%, #B621fe 74%);
+    Transition: All 0.3s Ease;
+    }
+    .Btn-9:Hover {
+    Background: Transparent;
+    Box-Shadow: 4px 4px 6px 0 Rgba(255,255,255,.5),
+    -4px -4px 6px 0 Rgba(116, 125, 136, .2),
+    Inset -4px -4px 6px 0 Rgba(255,255,255,.5),
+    Inset 4px 4px 6px 0 Rgba(116, 125, 136, .3);
+    Color: #Fff;
+    }
+    .Btn-9:Hover:after {
+    -Webkit-transform: Scale(2) Rotate(180deg);
+    Transform: Scale(2) Rotate(180deg);
+    Box-Shadow: 4px 4px 6px 0 Rgba(255,255,255,.5),
+    -4px -4px 6px 0 Rgba(116, 125, 136, .2),
+    Inset -4px -4px 6px 0 Rgba(255,255,255,.5),
+    Inset 4px 4px 6px 0 Rgba(116, 125, 136, .3);
+    }
+    /* 10 */
+    .Btn-10 {
+    Background: Rgb(22,9,240);
+    Background: Linear-Gradient(0deg, Rgba(22,9,240,1) 0%, Rgba(49,110,244,1) 100%);
+    Color: #Fff;
+    Border: None;
+    Transition: All 0.3s Ease;
+    Overflow: Hidden;
+    }
+    .Btn-10:After {
+    Position: Absolute;
+    Content: " ";
+    Top: 0;
+    Left: 0;
+    Z-Index: -1;
+    Width: 100%;
+    Height: 100%;
+    Transition: All 0.3s Ease;
+    -Webkit-transform: Scale(.1);
+    Transform: Scale(.1);
+    }
+    .Btn-10:Hover {
+    Color: #Fff;
+    Border: None;
+    Background: Transparent;
+    }
+    .Btn-10:Hover:after {
+    Background: Rgb(0,3,255);
+    Background: Linear-Gradient(0deg, Rgba(2,126,251,1) 0%, Rgba(0,3,255,1)100%);
+    -Webkit-transform: Scale(1);
+    Transform: Scale(1);
+    }
+    /* 11 */
+    .Btn-11 {
+    Border: None;
+    Background: Rgb(251,33,117);
+    Background: Linear-Gradient(0deg, Rgba(251,33,117,1) 0%, Rgba(234,76,137,1) 100%);
+    Color: #Fff;
+    Overflow: Hidden;
+    }
+    .Btn-11:Hover {
+    Text-Decoration: None;
+    Color: #Fff;
+    }
+    .Btn-11:Before {
+    Position: Absolute;
+    Content: '';
+    Display: Inline-Block;
+    Top: -180px;
+    Left: 0;
+    Width: 30px;
+    Height: 100%;
+    Background-Color: #Fff;
+    Animation: Shiny-Btn1 3s Ease-In-Out Infinite;
+    }
+    .Btn-11:Hover{
+    Opacity: .7;
+    }
+    .Btn-11:Active{
+    Box-Shadow: 4px 4px 6px 0 Rgba(255,255,255,.3),
+    -4px -4px 6px 0 Rgba(116, 125, 136, .2),
+    Inset -4px -4px 6px 0 Rgba(255,255,255,.2),
+    Inset 4px 4px 6px 0 Rgba(0, 0, 0, .2);
+    }
+    @keyframes Shiny-Btn1 {
+    0% { -Webkit-Transform: Scale(0) Rotate(45deg); Opacity: 0; }
+    80% { -Webkit-Transform: Scale(0) Rotate(45deg); Opacity: 0.5; }
+    81% { -Webkit-Transform: Scale(4) Rotate(45deg); Opacity: 1; }
+    100% { -Webkit-Transform: Scale(50) Rotate(45deg); Opacity: 0; }
+    }
+    /* 12 */
+    .Btn-12{
+    Position: Relative;
+    Right: 20px;
+    Bottom: 20px;
+    Border:none;
+    Box-Shadow: None;
+    Width: 130px;
+    Height: 40px;
+    Line-Height: 42px;
+    -Webkit-perspective: 230px;
+    Perspective: 230px;
+    }
+    .Btn-12 Span {
+    Background: Rgb(0,172,238);
+    Background: Linear-Gradient(0deg, Rgba(0,172,238,1) 0%, Rgba(2,126,251,1) 100%);
+    Display: Block;
+    Position: Absolute;
+    Width: 130px;
+    Height: 40px;
+    Box-Shadow:inset 2px 2px 2px 0px Rgba(255,255,255,.5),
+    7px 7px 20px 0px Rgba(0,0,0,.1),
+    4px 4px 5px 0px Rgba(0,0,0,.1);
+    Border-Radius: 5px;
+    Margin:0;
+    Text-Align: Center;
+    -Webkit-box-sizing: Border-Box;
+    -Moz-box-sizing: Border-Box;
+    Box-Sizing: Border-Box;
+    -Webkit-transition: All .3s;
+    Transition: All .3s;
+    }
+    .Btn-12 Span:nth-Child(1) {
+    Box-Shadow:
+    -7px -7px 20px 0px #Fff9,
+    -4px -4px 5px 0px #Fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+    -Webkit-transform: RotateX(90deg);
+    -Moz-transform: RotateX(90deg);
+    Transform: RotateX(90deg);
+    -Webkit-transform-origin: 50% 50% -20px;
+    -Moz-transform-origin: 50% 50% -20px;
+    Transform-Origin: 50% 50% -20px;
+    }
+    .Btn-12 Span:nth-Child(2) {
+    -Webkit-transform: RotateX(0deg);
+    -Moz-transform: RotateX(0deg);
+    Transform: RotateX(0deg);
+    -Webkit-transform-origin: 50% 50% -20px;
+    -Moz-transform-origin: 50% 50% -20px;
+    Transform-Origin: 50% 50% -20px;
+    }
+    .Btn-12:Hover Span:nth-Child(1) {
+    Box-Shadow:inset 2px 2px 2px 0px Rgba(255,255,255,.5),
+    7px 7px 20px 0px Rgba(0,0,0,.1),
+    4px 4px 5px 0px Rgba(0,0,0,.1);
+    -Webkit-transform: RotateX(0deg);
+    -Moz-transform: RotateX(0deg);
+    Transform: RotateX(0deg);
+    }
+    .Btn-12:Hover Span:nth-Child(2) {
+    Box-Shadow:inset 2px 2px 2px 0px Rgba(255,255,255,.5),
+    7px 7px 20px 0px Rgba(0,0,0,.1),
+    4px 4px 5px 0px Rgba(0,0,0,.1);
+    Color: Transparent;
+    -Webkit-transform: RotateX(-90deg);
+    -Moz-transform: RotateX(-90deg);
+    Transform: RotateX(-90deg);
+    }
+    /* 13 */
+    .Btn-13 {
+    Background-Color: #89d8d3;
+    Background-Image: Linear-Gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+    Border: None;
+    Z-Index: 1;
+    }
+    .Btn-13:After {
+    Position: Absolute;
+    Content: "";
+    Width: 100%;
+    Height: 0;
+    Bottom: 0;
+    Left: 0;
+    Z-Index: -1;
+    Border-Radius: 5px;
+    Background-Color: #4dccc6;
+    Background-Image: Linear-Gradient(315deg, #4dccc6 0%, #96e4df 74%);
+    Box-Shadow:
+    -7px -7px 20px 0px #Fff9,
+    -4px -4px 5px 0px #Fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+    Transition: All 0.3s Ease;
+    }
+    .Btn-13:Hover {
+    Color: #Fff;
+    }
+    .Btn-13:Hover:after {
+    Top: 0;
+    Height: 100%;
+    }
+    .Btn-13:Active {
+    Top: 2px;
+    }
+    /* 14 */
+    .Btn-14 {
+    Background: Rgb(255,151,0);
+    Border: None;
+    Z-Index: 1;
+    }
+    .Btn-14:After
+     {
+    Position: Absolute;
+    Content: "";
+    Width: 100%;
+    Height: 0;
+    Top: 0;
+    Left: 0;
+    Z-Index: -1;
+    Border-Radius: 5px;
+    Background-Color: #Eaf818;
+    Background-Image: Linear-Gradient(315deg, #Eaf818 0%, #F6fc9c 74%);
+    Box-Shadow:inset 2px 2px 2px 0px Rgba(255,255,255,.5),
+    7px 7px 20px 0px Rgba(0,0,0,.1),
+    4px 4px 5px 0px Rgba(0,0,0,.1);
+    transition : All 0.3s Ease;
+     }
+    .Btn-14:Hover {
+    Color: #000;
+    }
+    .Btn-14:Hover:after {
+    Top: Auto;
+    Bottom: 0;
+    Height: 100%;
+    }
+    .Btn-14:Active {
+    Top: 2px;
+    }
+    /* 15 */
+    .Btn-15 {
+    Background: #B621fe;
+    Border: None;
+    Z-Index: 1;
+    }
+    .Btn-15:After {
+    Position: Absolute;
+    Content: "";
+    Width: 0;
+    Height: 100%;
+    Top: 0;
+    Right: 0;
+    Z-Index: -1;
+    Background-Color: #663dff;
+    Border-Radius: 5px;
+    Box-Shadow:inset 2px 2px 2px 0px Rgba(255,255,255,.5),
+    7px 7px 20px 0px Rgba(0,0,0,.1),
+    4px 4px 5px 0px Rgba(0,0,0,.1);
+    Transition: All 0.3s Ease;
+    }
+    .Btn-15:Hover {
+    Color: #Fff;
+    }
+    .Btn-15:Hover:after {
+    Left: 0;
+    Width: 100%;
+    }
+    .Btn-15:Active {
+    Top: 2px;
+    }
+    /* 16 */
+    .Btn-16 {
+    Border: None;
+    Color: #000;
+    }
+    .Btn-16:After {
+    Position: Absolute;
+    Content: "";
+    Width: 0;
+    Height: 100%;
+    Top: 0;
+    Left: 0;
+    Direction: Rtl;
+    Z-Index: -1;
+    Box-Shadow:
+    -7px -7px 20px 0px #Fff9,
+    -4px -4px 5px 0px #Fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+    Transition: All 0.3s Ease;
+    }
+    .Btn-16:Hover {
+    Color: #000;
+    }
+    .Btn-16:Hover:after {
+    Left: Auto;
+    Right: 0;
+    Width: 100%;
+    }
+    .Btn-16:Active {
+    Top: 2px;
+    }
